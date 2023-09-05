@@ -26,3 +26,11 @@
 .social-media:hover {
   color: salmon;
 }
+
+.images {
+  transition: 0.3s;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}

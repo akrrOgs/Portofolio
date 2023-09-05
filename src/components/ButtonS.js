@@ -1,7 +1,7 @@
 import "../styles/button.css";
 
 function ButtonS(props) {
-  const classButton = "btn btn-warning btn-saya-" + props.warna;
+  const classButton = "btn btn-saya btn-" + props.warna;
   return (
     <a href={props.link} class={classButton}>
       {props.text}

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 
 import "../src/App.css";
+import RecentWork from "./components/RecentWork";
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <Intro />
       <About />
       <Service />
+      <RecentWork />
     </div>
   );
 }

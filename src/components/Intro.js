@@ -23,7 +23,7 @@ function Intro() {
             <ButtonS
               text="Hire Me"
               link="https://unsplash.com/photos/DjlKxYFJlTc"
-              warna="danger"
+              warna="warning"
             />
           </div>
         </div>
