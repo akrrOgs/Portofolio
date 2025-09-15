@@ -1,5 +1,5 @@
 import About from "./sections/About";
-import Clients from "./sections/Clients";
+// import Clients from "./sections/Clients";
 import Contact from "./sections/Contact";
 import Experince from "./sections/Experince";
 import Footer from "./sections/Footer";
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
-      <Clients />
+      {/* <Clients /> */}
       <Experince />
       <Contact />
       <Footer />

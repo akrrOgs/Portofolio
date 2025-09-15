@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "CodeSync - Online Coding Interviews",
+    desc: "CodeSync is an innovative Software-as-a-Service platform designed to facilitate online coding interviews. Featuring Zoom-like virtual meeting functionality, CodeSync enables recruiters and candidates to interact directly, code in real-time, and evaluate technical skills more effectively and efficiently.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript and Convex, Podcastr is designed for optimal performance and scalability.",
+    href: "https://code-interview-two.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -89,19 +89,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Convex",
+        path: "/assets/convex.png",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "StoreIT - Store Management Solution",
+    desc: "StoreIT is an innovative Software-as-a-Service platform that delivers modern data storage solutions. Its primary function is to securely store and manage files, enabling users to upload, access, and share data easily and efficiently anytime, anywhere.LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "With StoreIT, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Appwrite. It seamlessly integrates with the newest features.",
+    href: "https://storage-management-solution-nu.vercel.app/",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/logo-storeIt.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -132,13 +132,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "YC Directory - Pitch, Vote And Grow",
+    desc: "YCDirectory is an innovative Software-as-a-Service platform that serves as a hub for connecting with various e-commerce platforms. Through this platform, companies can create landing pages displaying their complete profile details, which are then published on the YCDirectory website and made widely accessible to the public.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "With a focus on efficiency, YCDirectory streamlines the process of integrantes complex forms, by using Next.js and Sanity as the main technologies.",
+    href: "https://yc-directory-livid.vercel.app/",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/logo-YC.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -165,19 +165,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Sanity",
+        path: "/assets/sanity.png",
       },
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Resume - Anlyzer Your Resume With AI",
+    desc: "Resume is an innovative Software-as-a-Service platform designed to intelligently analyze CVs or resumes. Powered by AI technology, the platform can identify the strengths and weaknesses of documents while ensuring analysis results meet ATS standards to increase a candidate's chances of success.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+      "Built with React JS (React Router v7), TypeScript for a type-safe and efficient development experience adn Puter JS for a smooth user experience.",
+    href: "https://ai-resume-anlyzer.vercel.app/",
     texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
+    logo: "/assets/logo-RS.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -202,8 +202,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Puter JS",
+        path: "/assets/puterjs.jpg",
       },
     ],
   },
@@ -284,32 +284,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "PUPR",
+    pos: "IT Support",
+    duration: "2023 March - 2023 June",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "During my internship, I contributed to the preparation and verification of fund utilization reports and proposals to ensure that every transaction and use of funds was accurately recorded. Furthermore, I developed a fieldworker curve recapitulation application using Linktree as an effective progress monitoring tool. I also successfully improved the efficiency of the daily verification process through the implementation of the S-Curve RKTL system, thus supporting smooth operations and timely reporting.",
+    icon: "/assets/logo-pupr.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "PT Brilyant Trimatra Utama",
+    pos: "Junior Frontend Developer & Automation Division",
+    duration: "2023 August - 2022 December",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Contributed to front-end development by implementing various application features, while also supporting automation activities through LAN network installation and wiring on injection panels. Furthermore, she performed warehouse administration duties by managing the distribution of cable reels and ensuring accurate and organized recording of incoming and outgoing equipment.",
+    icon: "/assets/Brilyant.png",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "WSKF (World Shitoryu Karatedo Federation)",
+    pos: "Committee",
+    duration: "22 -24 September 2023",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "He was involved as a committee member in the 10th World Shitoryu Karatedo International Championships, with primary responsibility for registering participants using a Zenith-based RFID system. He also contributed to technical support by assisting with the installation of LAN networks and electrical panels to ensure the smooth operation of the event.",
+    icon: "/assets/wskf.png",
     animation: "salute",
   },
 ];
